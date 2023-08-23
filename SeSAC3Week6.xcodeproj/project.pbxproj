@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F01A2822A9606D60031B206 /* sampleCode_map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01A2812A9606D60031B206 /* sampleCode_map.swift */; };
+		9F01A2842A96244D0031B206 /* LocationAssignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01A2832A96244C0031B206 /* LocationAssignmentViewController.swift */; };
+		9F01A2862A96247E0031B206 /* ButtonAssignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01A2852A96247E0031B206 /* ButtonAssignmentViewController.swift */; };
 		9F03731E2A930A0900B2B967 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F03731D2A930A0900B2B967 /* AppDelegate.swift */; };
 		9F0373202A930A0900B2B967 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F03731F2A930A0900B2B967 /* SceneDelegate.swift */; };
 		9F0373222A930A0900B2B967 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0373212A930A0900B2B967 /* ViewController.swift */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F01A2812A9606D60031B206 /* sampleCode_map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sampleCode_map.swift; sourceTree = "<group>"; };
+		9F01A2832A96244C0031B206 /* LocationAssignmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAssignmentViewController.swift; sourceTree = "<group>"; };
+		9F01A2852A96247E0031B206 /* ButtonAssignmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAssignmentViewController.swift; sourceTree = "<group>"; };
 		9F03731A2A930A0900B2B967 /* SeSAC3Week6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSAC3Week6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F03731D2A930A0900B2B967 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F03731F2A930A0900B2B967 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,9 +102,12 @@
 		9F3022072A94AA190050A8AE /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				9F01A2812A9606D60031B206 /* sampleCode_map.swift */,
 				9F30220A2A94AA700050A8AE /* AssignmentViewController.swift */,
 				9F30220E2A94ABAA0050A8AE /* Example1ViewController.swift */,
 				9F3022122A9506570050A8AE /* Example2ViewController.swift */,
+				9F01A2852A96247E0031B206 /* ButtonAssignmentViewController.swift */,
+				9F01A2832A96244C0031B206 /* LocationAssignmentViewController.swift */,
 			);
 			path = Assignment;
 			sourceTree = "<group>";
@@ -187,8 +196,11 @@
 				9F3021E12A9479360050A8AE /* LocationViewController.swift in Sources */,
 				9F03731E2A930A0900B2B967 /* AppDelegate.swift in Sources */,
 				9F30220B2A94AA700050A8AE /* AssignmentViewController.swift in Sources */,
+				9F01A2862A96247E0031B206 /* ButtonAssignmentViewController.swift in Sources */,
+				9F01A2822A9606D60031B206 /* sampleCode_map.swift in Sources */,
 				9F0373202A930A0900B2B967 /* SceneDelegate.swift in Sources */,
 				9F3022132A9506570050A8AE /* Example2ViewController.swift in Sources */,
+				9F01A2842A96244D0031B206 /* LocationAssignmentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +350,7 @@
 				DEVELOPMENT_TEAM = NDA4XU9NWX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeSAC3Week6/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "현재 날씨에 대한 정보를 가지고 오기 위해 위치 정보가 필요해요";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -370,6 +383,7 @@
 				DEVELOPMENT_TEAM = NDA4XU9NWX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeSAC3Week6/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "현재 날씨에 대한 정보를 가지고 오기 위해 위치 정보가 필요해요";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

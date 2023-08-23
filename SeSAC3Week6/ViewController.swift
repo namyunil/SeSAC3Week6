@@ -92,13 +92,16 @@ class ViewController: UIViewController {
         //스토리보드가 없기때문에 코드로만 동작하게 해도 문제 없다..!
         
         //1. 값 전달이 필요하다면..
-        //let vc = SnapViewController()
+//        let vc = SnapViewController()
         //present(vc, animated: true)
         
         //2. 값 전달이 필요 없다면..
 //        present(TextViewController(), animated: true)
         
-        present(LocationViewController(), animated: true)
+        let vc = LocationViewController()
+//        present(vc, animated: true)
+        let nav = UINavigationController(rootViewController: vc)
+        present(nav, animated: true)
     }
 
     func setLayoutAnchor() {
