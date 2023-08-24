@@ -98,10 +98,15 @@ class ViewController: UIViewController {
         //2. 값 전달이 필요 없다면..
 //        present(TextViewController(), animated: true)
         
-        let vc = LocationViewController()
+//        let vc = TextViewController()
+//        let vc = LocationViewController()
 //        present(vc, animated: true)
-        let nav = UINavigationController(rootViewController: vc)
-        present(nav, animated: true)
+//        let nav = UINavigationController(rootViewController: vc)
+        
+//        present(nav, animated: true)
+        
+        //클래스의 인스턴스가 아닌 클래스를 넘겨주는..genericViewController.self / 상위 개념을 옮겨준다..
+        transition(viewController: GenericViewController.self, storyboard: "Main", style: .present)
     }
 
     func setLayoutAnchor() {

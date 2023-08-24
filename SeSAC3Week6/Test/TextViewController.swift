@@ -11,6 +11,10 @@ import SnapKit
 class TextViewController: UIViewController {
     
     
+    //*1.
+    let picker = UIImagePickerController()
+    
+    
     //1.
     
 //        let photoImageView = setImageView() // 초기화 시점이 맞지 않아 오류가 발생 -> 초기화와 관계없는 type method로 선언하면 해결..!
@@ -82,6 +86,25 @@ class TextViewController: UIViewController {
         //addSubview 이후에 레이아웃을 잡아야하므로 논리적 순서를 고려하자..!
         setupConstraints()
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        //*2.available
+        //갤러리에서 이미지를 가져오는데 권한이 필요하진 않다..! / 사진 촬영에서는 권한이 필요..!
+        guard UIImagePickerController.isSourceTypeAvailable(.camera) else {
+            print("갤러리 사용 불가, 사용자에게 토스트/얼럿")
+            return
+        }
+
+        picker.delegate = self
+        picker.sourceType = .camera //.photoLibrary
+        picker.allowsEditing = true
+        
+//        let picker = UIColorPickerViewController() //UIFontPickerViewController()
+        
+        present(picker , animated: true)
+    }
         
         //자주 수정할 코드랑 아닌 코드를 구분해보자..!
         func setupConstraints() {
@@ -108,4 +131,25 @@ class TextViewController: UIViewController {
     
     
     
+}
+
+extension TextViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    
+    
+    //취소 버튼 클릭 시
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        print(#function)
+        dismiss(animated: true)
+    }
+    
+    //사진을 선택하거나 카메라 촬영 직후 호출
+    //info에서 사진에 대한 정보가 들어온다..!
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        //.originalImage -> 수정된 이미지가 아니라 원본 이미지가 넣어진다.
+        //.editedImage -> 수정된 이미지가 넣어진다.
+        if let image = info[UIImagePickerController.InfoKey.editedImage] as? UIImage {
+            self.photoImageView.image = image
+            dismiss(animated: true)
+        }
+    }
 }

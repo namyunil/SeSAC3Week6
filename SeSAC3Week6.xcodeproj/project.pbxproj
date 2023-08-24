@@ -13,7 +13,6 @@
 		9F03731E2A930A0900B2B967 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F03731D2A930A0900B2B967 /* AppDelegate.swift */; };
 		9F0373202A930A0900B2B967 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F03731F2A930A0900B2B967 /* SceneDelegate.swift */; };
 		9F0373222A930A0900B2B967 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0373212A930A0900B2B967 /* ViewController.swift */; };
-		9F0373252A930A0900B2B967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0373232A930A0900B2B967 /* Main.storyboard */; };
 		9F0373272A930A0C00B2B967 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0373262A930A0C00B2B967 /* Assets.xcassets */; };
 		9F03732A2A930A0C00B2B967 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0373282A930A0C00B2B967 /* LaunchScreen.storyboard */; };
 		9F3021D92A9446240050A8AE /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9F3021D82A9446240050A8AE /* SnapKit */; };
@@ -23,6 +22,14 @@
 		9F30220B2A94AA700050A8AE /* AssignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F30220A2A94AA700050A8AE /* AssignmentViewController.swift */; };
 		9F30220F2A94ABAB0050A8AE /* Example1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F30220E2A94ABAA0050A8AE /* Example1ViewController.swift */; };
 		9F3022132A9506570050A8AE /* Example2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3022122A9506570050A8AE /* Example2ViewController.swift */; };
+		9F846F892A96F125009C634C /* GenericViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F846F882A96F125009C634C /* GenericViewController.swift */; };
+		9F846F8B2A96F13A009C634C /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F846F8A2A96F13A009C634C /* Extension+UIViewController.swift */; };
+		9F846F902A971E95009C634C /* BlackRadiusTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F846F8F2A971E95009C634C /* BlackRadiusTextField.swift */; };
+		9F846F922A972A23009C634C /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F846F912A972A23009C634C /* CustomViewController.swift */; };
+		9F846F962A972A7B009C634C /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F846F952A972A7B009C634C /* CustomTableViewController.swift */; };
+		9F846F982A9756A7009C634C /* NetflixAssignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F846F972A9756A7009C634C /* NetflixAssignmentViewController.swift */; };
+		9F846F9A2A975F62009C634C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F846F992A975F62009C634C /* SignInViewController.swift */; };
+		9F846F9C2A97BE13009C634C /* SignInTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F846F9B2A97BE13009C634C /* SignInTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +40,6 @@
 		9F03731D2A930A0900B2B967 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F03731F2A930A0900B2B967 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9F0373212A930A0900B2B967 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9F0373242A930A0900B2B967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F0373262A930A0C00B2B967 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F0373292A930A0C00B2B967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F03732B2A930A0C00B2B967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,6 +49,14 @@
 		9F30220A2A94AA700050A8AE /* AssignmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentViewController.swift; sourceTree = "<group>"; };
 		9F30220E2A94ABAA0050A8AE /* Example1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example1ViewController.swift; sourceTree = "<group>"; };
 		9F3022122A9506570050A8AE /* Example2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example2ViewController.swift; sourceTree = "<group>"; };
+		9F846F882A96F125009C634C /* GenericViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericViewController.swift; sourceTree = "<group>"; };
+		9F846F8A2A96F13A009C634C /* Extension+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewController.swift"; sourceTree = "<group>"; };
+		9F846F8F2A971E95009C634C /* BlackRadiusTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackRadiusTextField.swift; sourceTree = "<group>"; };
+		9F846F912A972A23009C634C /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		9F846F952A972A7B009C634C /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
+		9F846F972A9756A7009C634C /* NetflixAssignmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixAssignmentViewController.swift; sourceTree = "<group>"; };
+		9F846F992A975F62009C634C /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		9F846F9B2A97BE13009C634C /* SignInTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +91,13 @@
 			isa = PBXGroup;
 			children = (
 				9F3022072A94AA190050A8AE /* Assignment */,
+				9F846F8C2A971CB9009C634C /* CustomView */,
+				9F846F852A96F0D9009C634C /* Generic */,
 				9F3021DA2A94464A0050A8AE /* Test */,
 				9F03731D2A930A0900B2B967 /* AppDelegate.swift */,
 				9F03731F2A930A0900B2B967 /* SceneDelegate.swift */,
 				9F0373212A930A0900B2B967 /* ViewController.swift */,
 				9F3021E02A9479360050A8AE /* LocationViewController.swift */,
-				9F0373232A930A0900B2B967 /* Main.storyboard */,
 				9F0373262A930A0C00B2B967 /* Assets.xcassets */,
 				9F0373282A930A0C00B2B967 /* LaunchScreen.storyboard */,
 				9F03732B2A930A0C00B2B967 /* Info.plist */,
@@ -102,14 +117,36 @@
 		9F3022072A94AA190050A8AE /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
-				9F01A2812A9606D60031B206 /* sampleCode_map.swift */,
 				9F30220A2A94AA700050A8AE /* AssignmentViewController.swift */,
 				9F30220E2A94ABAA0050A8AE /* Example1ViewController.swift */,
 				9F3022122A9506570050A8AE /* Example2ViewController.swift */,
+				9F01A2812A9606D60031B206 /* sampleCode_map.swift */,
 				9F01A2852A96247E0031B206 /* ButtonAssignmentViewController.swift */,
 				9F01A2832A96244C0031B206 /* LocationAssignmentViewController.swift */,
+				9F846F9B2A97BE13009C634C /* SignInTextField.swift */,
+				9F846F972A9756A7009C634C /* NetflixAssignmentViewController.swift */,
+				9F846F992A975F62009C634C /* SignInViewController.swift */,
 			);
 			path = Assignment;
+			sourceTree = "<group>";
+		};
+		9F846F852A96F0D9009C634C /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				9F846F882A96F125009C634C /* GenericViewController.swift */,
+				9F846F8A2A96F13A009C634C /* Extension+UIViewController.swift */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		9F846F8C2A971CB9009C634C /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				9F846F8F2A971E95009C634C /* BlackRadiusTextField.swift */,
+				9F846F912A972A23009C634C /* CustomViewController.swift */,
+				9F846F952A972A7B009C634C /* CustomTableViewController.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,7 +215,6 @@
 			files = (
 				9F03732A2A930A0C00B2B967 /* LaunchScreen.storyboard in Resources */,
 				9F0373272A930A0C00B2B967 /* Assets.xcassets in Resources */,
-				9F0373252A930A0900B2B967 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,29 +228,29 @@
 				9F3021DF2A945CAC0050A8AE /* TextViewController.swift in Sources */,
 				9F3021DD2A94468D0050A8AE /* SnapViewController.swift in Sources */,
 				9F0373222A930A0900B2B967 /* ViewController.swift in Sources */,
+				9F846F902A971E95009C634C /* BlackRadiusTextField.swift in Sources */,
 				9F30220F2A94ABAB0050A8AE /* Example1ViewController.swift in Sources */,
 				9F3021E12A9479360050A8AE /* LocationViewController.swift in Sources */,
+				9F846F982A9756A7009C634C /* NetflixAssignmentViewController.swift in Sources */,
+				9F846F892A96F125009C634C /* GenericViewController.swift in Sources */,
 				9F03731E2A930A0900B2B967 /* AppDelegate.swift in Sources */,
+				9F846F9A2A975F62009C634C /* SignInViewController.swift in Sources */,
 				9F30220B2A94AA700050A8AE /* AssignmentViewController.swift in Sources */,
+				9F846F8B2A96F13A009C634C /* Extension+UIViewController.swift in Sources */,
+				9F846F962A972A7B009C634C /* CustomTableViewController.swift in Sources */,
+				9F846F9C2A97BE13009C634C /* SignInTextField.swift in Sources */,
 				9F01A2862A96247E0031B206 /* ButtonAssignmentViewController.swift in Sources */,
 				9F01A2822A9606D60031B206 /* sampleCode_map.swift in Sources */,
 				9F0373202A930A0900B2B967 /* SceneDelegate.swift in Sources */,
 				9F3022132A9506570050A8AE /* Example2ViewController.swift in Sources */,
 				9F01A2842A96244D0031B206 /* LocationAssignmentViewController.swift in Sources */,
+				9F846F922A972A23009C634C /* CustomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9F0373232A930A0900B2B967 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9F0373242A930A0900B2B967 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9F0373282A930A0C00B2B967 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -353,7 +389,6 @@
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "현재 날씨에 대한 정보를 가지고 오기 위해 위치 정보가 필요해요";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -386,7 +421,6 @@
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "현재 날씨에 대한 정보를 가지고 오기 위해 위치 정보가 필요해요";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;

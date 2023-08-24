@@ -20,6 +20,8 @@ class LocationViewController: UIViewController {
     let cafeButton = UIButton()
     let foodButton = UIButton()
     
+    let num = Int.random(in: 1...100) // 클래스 내부에 선언 된 상수는 계속 동일한 값을 갖는다.
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -62,6 +64,9 @@ class LocationViewController: UIViewController {
         print("AAAA") // 코드에서 문제인지, 메서드가 구현이 제대로 하는지 확인..!
         
         setAnnotation(type: 1) // 1
+        
+        let num2 = Int.random(in: 1...100) // 함수 내에 선언 된 상수 / scope // 버튼을 누를 때 마다 랜덤값이 새롭게 나온다..!
+        print(num, num2)
     }
     
     
@@ -79,6 +84,8 @@ class LocationViewController: UIViewController {
             mapView.addAnnotations([annotation1, annotation2])
         } else if type == 1 {
             //mapView.annotations // 등록된 어노테이션을 모두 가져오는
+            
+            // mapView.removeAnnotation(annotation1) // X -> 위에 선언한 annotation1과는 다르기 때문에..!
             mapView.removeAnnotations(mapView.annotations)
             mapView.addAnnotations([annotation2])
         }
